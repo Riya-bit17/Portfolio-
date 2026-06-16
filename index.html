@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riya Tambe | Elite Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#020617;color:#fff;overflow-x:hidden}
+
+/* NAV */
+.nav{
+position:fixed;top:0;width:100%;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+padding:15px;text-align:center;
+z-index:1000;
+}
+.nav a{margin:0 15px;color:#fff;text-decoration:none}
+
+/* HERO */
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:radial-gradient(circle at top,#0f172a,#020617);
+}
+h1{font-size:50px}
+.hero p{opacity:.7;margin:10px 0}
+
+/* BUTTON */
+.btn{
+margin:10px;
+padding:12px 25px;
+background:linear-gradient(45deg,#38bdf8,#6366f1);
+border:none;
+border-radius:8px;
+color:#fff;
+cursor:pointer;
+transition:.3s;
+text-decoration:none;
+display:inline-block;
+}
+.btn:hover{transform:scale(1.05)}
+
+/* SECTIONS */
+.section{padding:80px 20px;max-width:1100px;margin:auto}
+h2{margin-bottom:20px;font-size:28px}
+
+/* PROJECTS */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border-radius:15px;
+overflow:hidden;
+transition:.4s;
+transform:translateY(40px);
+opacity:0
+}
+.card.show{transform:translateY(0);opacity:1}
+
+.card img{width:100%}
+.card-content{padding:15px}
+
+/* SKILLS */
+.skills span{
+display:inline-block;
+margin:8px;
+padding:8px 14px;
+background:rgba(255,255,255,0.08);
+border-radius:20px
+}
+
+/* FOOTER */
+footer{text-align:center;padding:40px;background:#020617}
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+
+<header class="hero">
+<h1>Riya Tambe</h1>
+<p>web Designer/Developer | WordPress Designer/Developer</p>
+
+<!-- ✅ Resume Buttons -->
+<a href="resume/Riya Tambe - Web Developer" target="_blank" class="btn">View Resume</a>
+<a href="resume/Riya Tambe - Web Developer" download class="btn">Download Resume</a>
+
+</header>
+
+<section id="about" class="section">
+<h2>About Me</h2>
+<p>I’m a passionate Web Developer with hands-on experience in building modern, responsive, and user-friendly websites. I specialize in Frontend Development and WordPress, using tools like HTML, CSS, JavaScript, and Elementor to create visually appealing and high-performing websites.
+With over a year of experience and 10+ live projects, I’ve developed a strong understanding of design, user experience, and performance optimization. I also actively use AI tools to enhance productivity and build smarter web solutions.<br>
+I enjoy turning ideas into real, functional websites and continuously learning new technologies to stay updated in the fast-growing tech world. My goal is to create websites that not only look good but also deliver real results.</p>
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+<div class="grid">
+
+<div class="card">
+  <img src="images/homepage.png">
+  
+  <div class="card-content">
+    <h3>Atharva University, Mumbai</h3>
+    <p>Wordpress | Elementor | Pulgins</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvauniversity.org/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/coe.png">
+  
+  <div class="card-content">
+    <h3>Atharva College Of Engineering</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvacoe.ac.in/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/aims.png">
+  
+  <div class="card-content">
+    <h3>Atharva Institute of Management Studies</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://www.atharvaims.edu.in/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+  
+  <div class="card">
+  <img src="images/asb.png">
+  
+  <div class="card-content">
+    <h3>Atharva School of Business</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvasb.edu.in/asb.html" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+ 
+    <div class="card">
+  <img src="images/ds.png">
+  
+  <div class="card-content">
+    <h3>Atharva Data Science</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvadatascience.com/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+ 
+      <div class="card">
+  <img src="images/af.png">
+  
+  <div class="card-content">
+    <h3>Atharva Foundation</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvafoundation.in/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+  
+      <div class="card">
+  <img src="images/hm.png">
+  
+  <div class="card-content">
+    <h3>Atharva College of Hotel Management</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvahmct.edu.in/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+
+  
+      <div class="card">
+  <img src="images/icstemsd.png">
+  
+  <div class="card-content">
+    <h3>ICSTEMSD Conference</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://icstemsd.in/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>
+  
+   <div class="card">
+  <img src="images/sss.png">
+  
+  <div class="card-content">
+    <h3>Sunil Rane Sir Political Website</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://www.sunilrane.com/index.html/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>  
+  
+  
+   <div class="card">
+  <img src="images/aift.png">
+  
+  <div class="card-content">
+    <h3>Atharva Institute of Film & Telivision</h3>
+    <p>HTML | CSS | JS</p>
+
+    <!-- 🔗 Buttons -->
+    <a href="https://atharvafilminstitute.com/" target="_blank" class="btn">Live Site</a>
+    
+  </div>
+</div>  
+  
+</div>
+</section>
+
+<section id="skills" class="section">
+<h2>Skills</h2>
+<div class="skills">
+<span>HTML</span><span>CSS</span><span>JavaScript</span>
+<span>WordPress</span><span>Elementor</span><span>Pulgins</span><span>Seo(basic)</span>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: tamberiya377@gmail.com</p>
+<p>LinkedIn: https://www.linkedin.com/in/riya-tambe-480a69384/</p>
+<p>GitHub: https://github.com/riya-bit17</p>
+</section>
+
+<footer>
+<p>© 2026 Riya Tambe</p>
+</footer>
+
+<script>
+const cards = document.querySelectorAll('.card');
+
+window.addEventListener('scroll', ()=>{
+ cards.forEach(card=>{
+   const rect = card.getBoundingClientRect();
+   if(rect.top < window.innerHeight - 100){
+     card.classList.add('show');
+   }
+ });
+});
+</script>
+
+</body>
+</html>
